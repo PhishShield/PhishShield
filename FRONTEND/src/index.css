@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  background-color: #020617; /* slate-950 */
+  color: #f1f5f9;            /* slate-100 */
+  font-family: monospace;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Custom HUD Panel Styling */
+.hud-panel {
+  background-color: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(30, 41, 59, 0.8);
+  border-radius: 0.75rem;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+}
+
+.hud-panel-active {
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.05);
+}
